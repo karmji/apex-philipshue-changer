@@ -6,15 +6,6 @@ import cv2
 import os
 import pyautogui
 
-#image = cv2.imread('assets/blueEvo3.png', 1)
-#This will load in the image as an unchanged image
-
-#This image will only work in 1650 resolution with username karma
-
-# cv2.imshow('Image', img)
-# cv2.waitKey(0)
-# #Wait an infinite amount of time because of '0'
-# cv2.destroyAllWindows()
 
 with open("username.txt", 'r') as file:
     username = file.readline().strip()
